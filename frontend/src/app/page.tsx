@@ -59,7 +59,7 @@ export default function Home() {
         />
       </div>
       <button
-        className="w-56 p-2 mt-4 text-3xl text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        className="w-56 p-2 mt-4 text-3xl text-center text-white bg-black rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-gray-500"
         onClick={() => {
           if (reason && currentAmount) {
             setExpense([...expense, { reason, spent: currentAmount }]);
