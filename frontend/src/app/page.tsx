@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-24 bg-gradient-to-tr from-blue-500 to-purple-600
     font-bold text-6xl">
-      ${spent}
+      ${spent.toFixed(2)}
       <div className="flex gap-10 items-center justify-center w-[48rem]">
         <input
           type="text"
